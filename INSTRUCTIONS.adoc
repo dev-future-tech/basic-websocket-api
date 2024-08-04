@@ -1,0 +1,17 @@
+= Instructions and Snippets
+:toc: top
+
+
+== Snippets
+
+[,bash]
+----
+$ curl -u basic-websockets:VRGzmKl11giR4YScrJ7JLklOfN55IvPF --location 'http://localhost:8080/realms/feedback/protocol/openid-connect/auth' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'grant_type=client_credentials' \
+--data-urlencode 'scope=notifications.read'
+
+$ curl -d 'client_id=basic-websockets' -d 'username=xxx' -d 'password=xxx' -d 'grant_type=password' \
+    'http://localhost:8080/auth/realms/YOUR_REALM_NAME/protocol/openid-connect/token' | \
+    python -m json.tool
+----

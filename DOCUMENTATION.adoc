@@ -1,0 +1,11 @@
+= Documentation
+:version: 1.0.0
+:toc: top
+
+== Notes
+
+[.underline]#Spring, STOMP, oAuth 2.0#
+https://stackoverflow.com/questions/30887788/json-web-token-jwt-with-spring-based-sockjs-stomp-web-socket?answertab=scoredesc#tab-top
+
+[.underline]#Spring, WebSockets and oAuth 2.0#
+https://medium.com/@HereAndBeyond/spring-boot-3-websocket-oauth-2-0-tls-bf479327339f
